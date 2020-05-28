@@ -5,6 +5,9 @@ class App < Sinatra::Base
     erb :index
   end
   
+  get '/new' do
+  end
+  
   post '/puppy' do
     info = params.to_s
   end
