@@ -12,6 +12,6 @@ class App < Sinatra::Base
   post '/puppy' do
     info = params.to_s
     
-    
+    erb :display_puppy
   end
 end
