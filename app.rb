@@ -6,6 +6,6 @@ class App < Sinatra::Base
   end
   
   post '/puppy' do
-    
+    info = params.to_s
   end
 end
